@@ -1,4 +1,4 @@
-# Dicoding Collection Dashboard ✨
+# My Dashboard ✨
 
 ## Setup Environment - Anaconda
 ```
