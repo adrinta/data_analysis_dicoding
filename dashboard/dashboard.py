@@ -4,8 +4,8 @@ import seaborn as sns
 import streamlit as st
 
 sns.set(style='dark')
-days_df = pd.read_csv("./df_day_clean.csv")
-hours_df = pd.read_csv("./df_hour_clean.csv")
+days_df = pd.read_csv("dashboard/df_day_clean.csv")
+hours_df = pd.read_csv("dashboard/df_hour_clean.csv")
 
 min_date_days = days_df["dteday"].min()
 max_date_days = days_df["dteday"].max()
